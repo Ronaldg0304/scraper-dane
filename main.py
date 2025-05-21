@@ -67,4 +67,4 @@ while True:
     fecha_actual = datetime.now().strftime("%d/%m/%Y")
     revisar_convocatorias()
     enviar_telegram(f"🔁 {fecha_actual}- Ultima revisión a las {hora_actual}")
-    time.sleep(3600)  # 3600 segundos = 1 hora
+    time.sleep(60)  # 3600 segundos = 1 hora
